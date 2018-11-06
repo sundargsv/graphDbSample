@@ -5,6 +5,14 @@
 - Spring lombak
 - Spring neo4j
 
+### Run Neo4j db server via docker for simplicity
+
+```
+docker run --publish=7474:7474 --publish=7687:7687 neo4j:3.0
+```
+
+Check out the db in GUI via http://localhost:7474/browser/
+
 ### Run below cypher create query to create a data 
 
 ```
